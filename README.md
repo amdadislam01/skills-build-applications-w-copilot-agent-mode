@@ -1,6 +1,6 @@
 # Build applications with GitHub Copilot agent mode
 
-<!-- ![](../../actions/workflows/0-start-course.yml/badge.svg?branch=main) -->
+<!-- ![](https://github.com/amdadislam01/skills-build-applications-w-copilot-agent-mode/actions/workflows/0-start-course.yml/badge.svg?branch=main) -->
 <img src="https://github.com/user-attachments/assets/8c45e716-1d95-473b-8923-dbbbf0f924b2" alt="octofit-tracker-app" width="30%" height="30%"/>
 
 _Build an application with GitHub Copilot agent mode in less than an hour._
@@ -28,14 +28,14 @@ In this exercise, you will:
 
 1. Right-click **Copy Exercise** and open the link in a new tab.
 
-   <a id="copy-exercise" href="https://github.com/new?template_owner=continuous-copilot&template_name=build-applications-w-copilot-agent-mode&owner=%40me&name=skills-build-applications-w-copilot-agent-mode&description=Exercise:+Build+my+application+with+Copilot+agent+mode&visibility=public">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-008000" height="25pt"/>
+   <a id="copy-exercise">
+      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
    </a>
 
 2. In the new tab, most of the fields will automatically fill in for you.
 
    - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will use [Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
+   - We recommend creating a public repository, as private repositories will use [Actions minutes](https://docs.github.chttps://github.com/amdadislam01/skills-build-applications-w-copilot-agent-mode/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
    - Scroll down and click the **Create repository** button at the bottom of the form.
 
 3. After your new repository is created, wait about 20 seconds for the exercise to be prepared and buttons updated. You will continue working from your copy of the exercise.
@@ -46,8 +46,8 @@ In this exercise, you will:
 
 4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
 
-   <a id="start-exercise">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-AAA" height="25pt"/>
+   <a id="start-exercise" href="https://github.com/amdadislam01/skills-build-applications-w-copilot-agent-mode/issues/1">
+      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
    </a>
 
 > ❕ **Important:** The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
