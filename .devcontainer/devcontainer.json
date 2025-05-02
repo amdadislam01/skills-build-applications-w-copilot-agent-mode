@@ -1,0 +1,33 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+    "hostRequirements": {
+        "cpus": 4
+    },
+    "name": "OctoFit App codespace",
+    "postCreateCommand": "sudo chmod +x ./.devcontainer/post_create.sh && ./.devcontainer/post_create.sh",
+    "postStartCommand": "sudo chmod +x ./.devcontainer/post_start.sh && ./.devcontainer/post_start.sh",
+    "customizations": {
+        "vscode": {
+        "extensions": [
+            "github.copilot@insiders", // GitHub Copilot + Copilot Chat insiders
+            "markdown-lint.markdownlinter",
+            "ms-python.python", // Python extension
+            "ms-python.vscode-pylance" // Pylance extension for Python
+        ]}
+    },
+    "forwardPorts": [
+        3000, // React default port
+        8000, // Django default port
+        27017 // MongoDB default port
+    ],
+    "portAttributes": {
+        "3000": { // React port attributes
+        "label": "octofit-tracker",
+        "requireLocalPort": true
+      },      
+        "8000": { // Django port attributes
+        "label": "octofit-rest-api",
+        "requireLocalPort": true
+        }
+    }
+}
